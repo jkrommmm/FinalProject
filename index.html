@@ -30,17 +30,25 @@ ASSIGNMENT: HTML template
 				</div>
 				<div id="center" class="medium-6 columns">
 					<h3>Amazing Dedication</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis dui at metus ultricies rhoncus non in orci. Nullam cursus lacus id venenatis egestas. Aliquam dapibus velit lorem, quis porta tellus ultrices quis. Sed vitae lorem tortor. Mauris vestibulum porta ligula sit amet suscipit. Curabitur ultrices sodales augue luctus venenatis. Ut ut arcu tristique, congue quam sit amet, eleifend orci. Pellentesque sodales, nunc ac pretium pulvinar, arcu est dapibus nibh, quis sagittis urna dui sed dui. Integer erat ipsum, elementum a diam vel, pulvinar pulvinar nisl. Suspendisse purus nunc, placerat quis gravida quis, cursus at tellus. Nunc nec dolor id risus porta luctus auctor at justo. Phasellus metus odio, ultrices lacinia pharetra quis, pulvinar vitae ligula.
-
-						Integer in lacinia urna, nec ultricies nisl. Etiam viverra justo auctor gravida egestas. Pellentesque vel ipsum eu magna sodales semper nec dapibus augue. Mauris ac finibus dui, non scelerisque sem. In nibh sem, venenatis a ultrices sed, maximus eget massa. Duis pellentesque purus id bibendum iaculis. Mauris fermentum velit eu tortor sodales vulputate. Mauris hendrerit lectus non libero tincidunt maximus. Ut eget nisi accumsan sapien eleifend vulputate. Aliquam in orci ex. Donec cursus mauris ac accumsan feugiat. Duis porta purus in leo euismod, quis ultricies dui convallis. Curabitur odio libero, lobortis et nisl et, lobortis volutpat magna. Phasellus sodales ipsum massa, id condimentum augue suscipit vitae.
-
-						Etiam leo nunc, finibus a viverra sit amet, mattis eget felis. Nulla facilisi. Fusce ac varius purus. Sed orci turpis, venenatis vitae enim vitae, dapibus viverra odio. Aenean nec rutrum augue, in bibendum tortor. Suspendisse potenti. Maecenas facilisis tincidunt condimentum. Nam fermentum, metus ac ullamcorper condimentum, dui eros laoreet mauris, at faucibus mi lorem quis augue.
-
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis dui at metus ultricies rhoncus non in orci. Nullam cursus lacus id venenatis egestas. Aliquam dapibus velit lorem, quis porta tellus ultrices quis. Sed vitae lorem tortor. Mauris vestibulum porta ligula sit amet suscipit. Curabitur ultrices sodales augue luctus venenatis. Ut ut arcu tristique, congue quam sit amet, eleifend orci. Pellentesque sodales, nunc ac pretium pulvinar, arcu est dapibus nibh, quis sagittis urna dui sed dui. Integer erat ipsum, elementum a diam vel, pulvinar pulvinar nisl. Suspendisse purus nunc, placerat quis gravida quis, cursus at tellus. Nunc nec dolor id risus porta luctus auctor at justo. Phasellus metus odio, ultrices lacinia pharetra quis, pulvinar vitae ligula.
+						Integer in lacinia urna, nec ultricies nisl. Etiam viverra justo auctor gravida egestas. Pellentesque vel ipsum eu magna sodales semper nec dapibus augue. Mauris ac finibus dui, non scelerisque sem.
 					</p>
 				</div>
 				<div id="right" class="medium-3 columns">
 					<h3>Buzz</h3>
 				</div>
+			</div>
+		</div>
+
+		<div id="form">
+			<div class="row">
+				<form class="simple-form">
+					<input type="text" maxlength="50" placeholder="Name" ng-model="user.name" required /><br />
+					<input type="email" maxlength="50" placeholder="Email" ng-model="user.email" required /><br />
+					<input type="text" maxlength="75" placeholder="Company" ng-model="user.company" required/><br />
+					<button data-ng-submit="submit()" class="success"></button>
+				</form>
 			</div>
 		</div>
 
