@@ -1,19 +1,35 @@
 
 
 #content {
+	height: 100%;
 	background-image: linear-gradient(black, white);
 }
 
 #header {
-	background-image: ;
+	height: 370px;
+	background-image: url("../images/mars_full.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+h1 {
+	color: white;
+	padding-top: 25px;
 }
 
 #intro {
 	background-color: #007095;
+	padding: 10px;
 }
 
 #left {
-	background-color: #0078a0;
+	background-image: url("../images/Sp004.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 450px;
 }
 
 #center {
@@ -21,5 +37,9 @@
 }
 
 #right {
-	background-color: #008CBA;
+	background-image: url("../images/Sp006.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 450px;
 }
