@@ -49,12 +49,11 @@ ASSIGNMENT: HTML template
 			</div>
 			<div class="row">
 				<form class="simple-form">
-					<input type="text" maxlength="50" placeholder="Name" data-ng-model="user.name" required /><br />
-					<input type="email" maxlength="50" placeholder="Email" data-ng-model="user.email" required /><br />
-					<input type="text" maxlength="75" placeholder="Company" data-ng-model="user.company" required/><br />
+					<input type="text" maxlength="50" placeholder="Name" data-ng-model="user.name" required id="name"/><br />
+					<input type="email" maxlength="50" placeholder="Email" data-ng-model="user.email" required id="email"/><br />
+					<input type="text" maxlength="75" placeholder="Company" data-ng-model="user.company" required id="company"/><br />
 					<button id="submitButton" data-ng-click="submit()" class="success">Submit</button>
 				</form>
-				<pre>form = {{user | json}}</pre>
 			</div>
 		</div>
 
